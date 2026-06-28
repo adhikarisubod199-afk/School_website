@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply now</title>
+    <link rel="Stylesheet" href="apply.css">
+</head>
+
+<body>
+
+    <div id="apply">
+        <form action="safe.php" method="POST">
+            <h3 class="head">Apply</h3>
+            <span></span>
+            <h4 class="name">Full Name</h4>
+            <input type="text" name="fullname" required>
+            <h4 class="address">Address</h4>
+            <input type="text" name="address" required>
+            <h4 class="no">Phone Number</h4>
+         <input type="tel" name="phone" required>
+            <h4 class="gender">Gender</h4>
+            <input type="radio" name="gender" value="male" required>Male
+            <input type="radio" name="gender" value="female" required>Female
+            <input type="radio" name="gender" value="others" required>Others
+            <br>
+            <br>
+            <label for="class">Class:</label>
+
+            <select id="class" name="class" required>
+                <option value="">Select Class</option>
+                <option value="Nursery">Nursery</option>
+                <option value="LKG">LKG</option>
+                <option value="UKG">UKG</option>
+                <option value="1">Class 1</option>
+                <option value="2">Class 2</option>
+                <option value="3">Class 3</option>
+                <option value="4">Class 4</option>
+                <option value="5">Class 5</option>
+                <option value="6">Class 6</option>
+                <option value="7">Class 7</option>
+                <option value="8">Class 8</option>
+                <option value="9">Class 9</option>
+                <option value="10">Class 10</option>
+            </select>
+
+
+            <h4 class="Email">Email</h4>
+            <input type="email" name="email" required>
+
+            <h4 class="Fname">Father Name</h4>
+            <input type="text" name="fathername" required>
+            <h4 class="Mname">Mother Name</h4>
+            <input type="text" name="mothername" required>
+            <h4 class="reason">Why you want to join GyanJyoti VidhyaKunj Ma Vi School</h4>
+            <textarea name="reason" rows="4" required></textarea>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

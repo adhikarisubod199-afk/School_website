@@ -1,0 +1,279 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+   scroll-behavior: smooth;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#MAIN{ 
+            width:100%;
+          
+}
+
+a{
+    text-decoration: NONE;
+    color: white;
+}
+/* body{
+    background-color: black;
+  
+} */
+
+#top{
+  
+   position: sticky;
+   top:0;
+   background-color: #6d6e70;
+ min-height: 100px;
+ width:100%;
+
+}
+#logo {
+    width: 150px;
+    height:auto;
+}
+#name{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:15px 25px;
+}
+#menu{
+     display:flex; 
+    gap: 50px;
+     flex-wrap: wrap;
+    justify-content: center;
+   
+     
+} 
+#menu h3{
+    
+    color:white;
+    font-size:18px;
+}
+#ext{
+   
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+#bt1{
+     background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+#bt1:hover{
+     background-color: #4338ca;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+#bt2,
+#bt3{
+    color: white;
+    font-size:24px;
+    background-color:#6d6e70;
+    cursor:pointer;
+
+}
+#banner{
+     position: sticky;
+  
+    background-color:blue;
+    color:white;
+    padding:10px;
+    font-weight:bold;
+    text-align:center;
+}
+#bd1{
+    display:flex;
+    justify-content:left;
+    padding:10px 10px;
+}
+.notice-bar {
+    background-color:blue; /* Yellow */
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#intro{
+  height: auto;
+    width: 400px;
+   border-radius: 10px;
+   max-width: 900px;
+  
+}
+
+
+    #heading{
+    /* background:#4f46e5; */
+    color:black;
+    text-align:center;
+    padding:30px 10px;
+    border-radius:8px;
+    margin-bottom:20px;
+  
+}
+
+#about{
+    color:black;
+    font-weight: 100px;
+    height: 7000px;
+    font:times;
+    font-size: large;
+    position: absolute;
+    top:17%;
+    left:30%;
+}
+#abt{
+ text-decoration: none;
+}
+#extra{
+    margin-top:180px;
+    position:relative;
+}
+
+#one{
+    font-size:40px;
+    margin-bottom:10px;
+    color:#222;
+    position:relative;
+    top:30px;
+    left:30px;
+}
+#envday1{
+    display:flex;
+    align-items:flex-start;
+    gap:40px;
+    margin:60px 30px;
+    flex-wrap:wrap;
+}
+
+#env{
+    width:450px;
+    max-width:100%;
+    height:auto;
+    border-radius:10px;
+}
+
+#txt1{
+    font-size:30px;
+    font-family:"Times New Roman", Times, serif;
+    flex:20;
+}
+/* #env{
+   
+     width:450px;
+     max-width:100%;
+     height:auto;
+     border-radius:10px;
+     position:absolute;
+     top:60px;
+     right:900px;
+
+}
+
+#txt1{
+   
+  font-size: 30px;
+
+  font-family: "Times New Roman", Times, serif;
+  position:absolute;
+     top:60px;
+     left:600px;
+
+    
+} */
+ #buttonlast{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    background:black;
+    color:white;
+    border:1px solid #333;
+    cursor:pointer;
+    display:none;
+ }
+/* tablet */
+@media (max-width:992px){
+
+    #name{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    #menu{
+        gap:20px;
+    }
+
+    #envday1{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    #txt1{
+        font-size:20px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    #logo{
+        width:120px;
+    }
+
+    #menu{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    #menu h3{
+        font-size:16px;
+    }
+
+    #ext{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    #heading{
+        font-size:22px;
+    }
+
+    #about h3{
+        font-size:16px;
+    }
+
+    #one{
+        font-size:30px;
+    }
+
+    #txt1{
+        font-size:18px;
+    }
+
+    #bt1{
+        padding:8px 15px;
+    }
+}
