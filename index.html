@@ -18,7 +18,7 @@
       <div id="top">
     <div id="name">
         <div >
-               <a href="#"><img id="logo" src="scllogo1.png" ></a>
+               <a href="#"><img id="logo" src="image/scllogo1.png" ></a>
         </div>
     <div id="menu" target="bank">
         <a href="#about" >
@@ -27,38 +27,38 @@
 
      
       <a href="#extra"> 
-    <h3>Extra-currcular Activities</h3>
+    <h3 id="ex">Extra-currcular Activities</h3>
 </a>
              
-      <a href="#Teacher" > 
-        <h3>Teachers</h3>
+      <a href="#Teachers" > 
+        <h3 id="tech">Teachers</h3>
         </a>
   
        <a href="#contact" >
-  <h3>Contact</h3>
+  <h3 id="cont">Contact</h3>
 </a> 
    </div> 
     <div id="ext">
         <a href="apply.html">
         <button id="bt1">Apply Now</button>
     </a>
-    <a href="#notification">
-    <i id="bt3" class="ri-notification-line"></i>
+    <a href="https://www.facebook.com/gyanjyoti.vidyakunj"target="blank">
+   <i id="fb" class="ri-facebook-fill"></i>
 </a>
 
-<button id="menuuToggle" onclick="menuu.hidden ^= 1">
-    <i class="ri-menu-line"></i>
-</button>
+<div class="menu-container">
+    <button class="menu-btn">☰ Menu</button>
 
-<aside id="menuu" hidden>
-    <nav class="menu-links">
-        <a href="#">Home</a>
-        <a href="#">Apply now</a>
-        <a href="#">Setting</a>
-        <a href="#">Logout</a>
-        <a href="#">Contact us</a>
-    </nav>
-</aside>
+    <aside id="menuu">
+        <nav class="menu-links">
+            <a href="#about">Home</a>
+            <a href="apply.html">Apply Now</a>
+            <a href="#">Settings</a>
+            <a href="#">Logout</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </aside>
+</div>
     </div>
                
           </div>
@@ -70,13 +70,43 @@
         📢 Welcome to Official website of Shree GyanJyoti VidhyaKunj Ma.Vi,Pokhara-32,kaski.
     </marquee>
 </div>
-
-
-     <!-- <img id="scl1" src="educ.jpg">  -->
    
   
 
 </div>
+
+<section class="home">
+
+    <div class="overlay"></div>
+
+    <div class="home-content">
+
+
+        <h3>Welcome To</h3>
+
+        <h1>GYANJYOTI VIDHYAKUNJ</h1>
+
+        <h2>Secondary School</h2>
+
+        <p class="address">
+            📍 Pokhara-32,Tallo GaganGaunda, Kaski, Nepal
+        </p>
+
+        <div class="motto-box">
+
+            <h4>Our Motto</h4>
+
+            <p>
+                "Knowledge • Discipline • Character"
+            </p>
+
+        </div>
+
+        <a href="#about" class="btn">Explore More</a>
+
+    </div>
+
+</section>
 <div id="about">
 
     <div class="about-container">
@@ -84,7 +114,7 @@
         <!-- Left Side (Video) -->
         <div class="about-video">
             <video id="intro" autoplay muted controls playsinline>
-                <source src="intro.mp4" type="video/mp4">
+                <source src="image/intro.mp4" type="video/mp4">
             </video>
         </div>
 
@@ -130,54 +160,230 @@
     </div>
 
 </div>
+<section class="extra">
 <div id="extra">
-    <h1 id="head1">Programs</h1>
-    <h2 id="head2">World Environment Day</h2>
-      <div id="env">
-    ><div id="img">
-        <img id="env_1" src="env.jpg">
+    <h1 class="section-title">Programs</h1>
+    <h2 class="section-subtitle">World Environment Day</h2>
+
+    <!-- Program 1 -->
+    <div class="program-card">
+        <div class="program-image">
+            <img src="image/env.jpg" alt="Environment Rally">
+        </div>
+
+        <div class="program-text">
+            <h3>
+                As part of the World Environment Day celebration, students enthusiastically
+                participated in an environmental awareness campaign by carrying creative
+                slogans and placards highlighting the importance of protecting our planet.
+                The rally aimed to inspire people to conserve natural resources, maintain
+                cleanliness, and work together to build a sustainable future.
+            </h3>
+        </div>
     </div>
-        <div id="txtt">
-        <h3 id="txttt">
-As part of the World Environment Day celebration, students enthusiastically participated in an environmental awareness campaign by carrying creative slogans and placards highlighting the importance of protecting our planet. The rally aimed to inspire people to conserve natural resources, maintain cleanliness, and work together to build a sustainable future.
-        </h3>
+
+    <!-- Program 2 -->
+    <div class="program-card reverse">
+
+        <div class="program-text">
+            <h3>
+                On the occasion of World Environment Day, the students and teachers of
+                GyanJyoti VidhyaKunj Ma. Vi. organized an environmental awareness rally
+                to promote cleanliness, tree plantation, and environmental conservation.
+                Carrying informative placards and slogans, the participants encouraged
+                the community to protect nature and work together for a cleaner,
+                greener, and healthier future.
+            </h3>
+        </div>
+
+        <div class="program-image">
+            <img src="image/env4.jpg" alt="Awareness Rally">
+        </div>
+
+    </div>
+
+    <!-- Program 3 -->
+    <div class="program-card">
+
+        <div class="program-image">
+            <img src="image/env1.jpg" alt="Principal Plantation">
+        </div>
+
+        <div class="program-text">
+            <h3>
+                On the occasion of World Environment Day, our respected Principal,
+                Mr. Arjun Prasad Adhikari, actively participated in the tree plantation
+                program along with students and teachers. His involvement inspired
+                everyone to protect the environment and work together towards creating
+                a greener, cleaner, and more sustainable future.
+            </h3>
+        </div>
+
+    </div>
+
+    <!-- Program 4 -->
+    <div class="program-card reverse">
+
+        <div class="program-text">
+            <h3>
+                On the occasion of World Environment Day, our respected Vice Principal,
+                Mr. Mitrabandhu Subedi, actively participated in the tree plantation
+                program alongside students and teachers. His enthusiastic involvement
+                inspired everyone to protect the environment, plant more trees,
+                and work together for a greener and healthier future.
+            </h3>
+        </div>
+
+        <div class="program-image">
+            <img src="image/env3.jpg" alt="Vice Principal Plantation">
+        </div>
+
+    </div>
+
+    <div class="more-btn">
+        <button id="moreb">
+            More <i class="ri-arrow-right-line"></i>
+        </button>
+    </div>
 </div>
-    </div>
-    <div id="env2">
-         <div id="TXXT">
-        <h3 id="txt2">
-On the occasion of World Environment Day, the students and teachers of GyanJyoti VidhyaKunj Ma. Vi. 
-organized an environmental awareness rally to promote cleanliness, tree plantation, and environmental conservation. Carrying informative placards and slogans, the participants encouraged the community to protect nature and work together for a cleaner, greener, and healthier future. The program helped develop environmental responsibility and social awareness among students.
-        </h3>
+</section>
+    <section id="Teachers">
+        <H1 id="TeachHead">Teachers Details:</H1>
+        <div id="tdetails">
+        <div id="1st">
+    <img id="pic1" href="https://www.facebook.com/arjun.adhikari.5851" src="image/principal.jpg"> 
+      <h2>Mr. Arjun Prasad Adhikari</h2>
+
+    <p>Position : Principal</p>
+    <p>Qualification : M.Ed.</p>
+     <p>Subject : Mathematics</p>
+    <p>Age : 50 Years</p>
+    <p>Address : Pokhara-31, Kaski</p>
+    <p>Email : arjunadk@school.edu.np</p>
+    <p>Phone : +977-98XXXXXXXX</p>
+
 </div>
-        <div id="img1">
-        <img id="env_2" src="env4.jpg">
-    </div>
-   
-    </div>
-   <div id="env3">
-    ><div id="img2">
-        <img id="env_3" src="env2.jpg">
-    </div>
-        <div id="txt2">
-        <h3 id="txt3">
-On the occasion of World Environment Day, our respected Principal,
- Mr. Arjun Prasad Adhikari, actively participated in the tree plantation program along with students and teachers. His involvement inspired everyone to protect the environment and work together towards creating a greener, cleaner, and more sustainable future. 🌱🌍
-        </h3>
+
+   <div id="2nd">
+    <img id="pic2" src="image/vice princ.jpg"> 
+     <h2>Mr. MitraBandhu Subedi</h2>
+
+    <p>Position : Vice-Principal</p>
+    <p>Qualification : M.Ed.</p>
+      <p>Subject : English</p>
+    <p>Age : 47 Years</p>
+    <p>Address : Pokhara-2, Kaski</p>
+    <p>Email : mitrabandhu@school.edu.np</p>
+    <p>Phone : +977-98XXXXXXXX</p>
+
 </div>
-    </div>
-     <div id="env4">
-    >
-        <div id="txt4">
-        <h3 id="txt5">
-On the occasion of World Environment Day, our respected Vice Principal, Mr. Mitrabandhu Subedi, actively participated in the tree plantation program alongside students and teachers. His enthusiastic involvement inspired everyone to protect the environment, plant more trees, and work together for a greener and healthier future. 🌱🌍
-        </h3>
+ <div id="3rd">
+    <img id="pic3" src="image/tankaraj.jpg">
+       <h2>Mr. Tankaraj Subedi</h2>
+
+    <p>Position : Program Coordinator</p>
+    <p>Qualification : M.Ed.</p>
+    <p>Age : 45 Years</p>
+    <p>Address : Pokhara-30, Kaski</p>
+    <p>Email : Tankaraj@school.edu.np</p>
+    <p>Phone : +977-98XXXXXXXX</p>
+
 </div>
-<div id="img3">
-        <img id="env_4" src="env3.jpg">
-    </div>
-    </div>
-    </div>
+<div id="3rd">
+    <img id="pic4"  src="image/falano.jpg">
+        <h2>Mr. Falano falano</h2>
+
+    <p>Position : XXX</p>
+    <p>Qualification : XXX</p>
+    <p>Age : XXX</p>
+    <p>Address : XXX</p>
+    <p>Email : XXX</p>
+    <p>Phone : +977-98XXXXXXXX</p>
+
+</div>
+<div id="4th">
+    <img id="pic5" src="image/falano.jpg">
+  
+        <h2>Mr. Falano falano</h2>
+
+    <p>Position : XXX</p>
+    <p>Qualification : XXX</p>
+    <p>Age : XXX</p>
+    <p>Address : XXX</p>
+    <p>Email : XXX</p>
+    <p>Phone : +977-98XXXXXXXX</p>
+
+</div>
+<div id="5th">
+    <img id="pic6" src="image/falano.jpg">
+      
+        <h2>Mr. Falano falano</h2>
+
+    <p>Position : XXX</p>
+    <p>Qualification : XXX</p>
+    <p>Age : XXX</p>
+    <p>Address : XXX</p>
+    <p>Email : XXX</p>
+    <p>Phone : +977-98XXXXXXXX</p>
+
+</div>
+<div id="6th">
+    <img id="pic7" src="image/subu.png">
+  
+        <h2>Mr. Falano Adhikari</h2>
+
+    <p>Position : XXX</p>
+    <p>Qualification : XXX</p>
+    <p>Age : XXX</p>
+    <p>Address : XXX</p>
+    <p>Email : XXX</p>
+    <p>Phone : +977-98XXXXXXXX</p>
+
+</div>
+<div id="7th">
+    <img id="pic8" src="image/bhandu.jpeg">
+ 
+        <h2>Mr. Dhiskano Bhandari</h2>
+
+    <p>Position : XXX</p>
+    <p>Qualification : XXX</p>
+    <p>Age : XXX</p>
+    <p>Address : XXX</p>
+    <p>Email : XXX</p>
+    <p>Phone : +977-98XXXXXXXX</p>
+</div>
+</div>
+</div>
+      </section>  
+      <SECTION id="curruculum">
+        <h2 id="hd1">Our Curruculum</h2>
+        <div id="curruculum_container">
+<div id="cur1">
+<img id="pre1" src="image/pre11.jpg">
+<div id="curl1txt">
+<h2>(Pre-Primary)</h2>
+<h4>Nursery to UKG</h4>
+<h3>Learn • Play • Grow <br> <br>
+Every smile, every story, and every activity helps our little learners develop confidence, imagination, and essential life skills.</h3>
+</div>
+<button id="preb">Apply Now <i class="ri-arrow-right-line" ></i></button>
+</div>
+<div id="cur2">
+<img id="prim1" src="image/see1.2.jpg">
+<div id="curl2txt">
+<h2>(Basic-Level)</h2>
+<h4>Class(1-10)</h4>
+<h3>Building Strong Foundations for the Future <br>
+Our Basic Level program equips students with essential knowledge, critical thinking skills, and strong moral values through engaging and student-centered learning.</h3>
+</div>
+<button id="preb1">Apply Now <i class="ri-arrow-right-line" ></i></button>
+</div>
+
+</div>
+        </div>
+
+
+      </SECTION>
 <section id="contact">
 
     <h1 class="contact-title">Contact Us</h1>
@@ -228,7 +434,7 @@ On the occasion of World Environment Day, our respected Vice Principal, Mr. Mitr
             <h2>Email</h2>
 
             <p>
-                info@gyanjyoti.edu.np<br>
+               <a href="mailto:info@gyanjyoti.edu.np"> info@gyanjyoti.edu.np</a><br>
                 admission@gyanjyoti.edu.np
             </p>
 
@@ -243,6 +449,11 @@ On the occasion of World Environment Day, our respected Vice Principal, Mr. Mitr
     </div>
 
 </section>
+    <footer >
+       <a href="www.subodadhikari.com.np" style="color: black;"> © 2026 | SubuVerse | All Rights Reserved.</a>
+       <p>Developed By:Subod Adhikari  </p>
+
+    </footer>
 </div>
 </div>
    <button id="buttonlast"><i class="ri-arrow-up-line"></i></button>
